@@ -10,7 +10,7 @@
 
 /* Esercizio 2 */
 .ex-2-square {
-  transition: width 1s;
+  transition: width 2s;
 }
 
 .ex-2-square:active {
@@ -20,7 +20,7 @@
 
 /* Esercizio 3 */
 .ex-3-square {
-  transition: border 1s;
+  transition: border-radius 1s;
 }
 
 .ex-3-square:hover {
@@ -55,4 +55,37 @@
 /* Esercizio 5 */
 
 /* Esercizio 6 */
+.ex-6-img:hover {
+  filter: grayscale(100%);
+}
 /* Esercizio 6 */
+
+/* Esercizio 7 */
+.ex-7-img {
+  transition: filter 2s;
+}
+.ex-7-img:hover {
+  filter: sepia(50%) grayscale(50%);
+}
+/* Esercizio 7 */
+
+/* Esercizio 8 */
+.ex-8-img {
+  transition: filter 2s, border-radius 2s;
+}
+.ex-8-img:hover {
+  border-radius: 25px;
+  filter: sepia(50%) grayscale(50%);
+}
+/* Esercizio 8 */
+
+/* Esercizio 9 */
+.ex-9-img {
+  transition: all 3s;
+}
+.ex-9-img:hover {
+  border-radius: 25px;
+  filter: sepia(50%) grayscale(50%);
+  transform: scale(1.5);
+}
+/* Esercizio 9 */
