@@ -121,3 +121,124 @@
     }
 }
 /* Esercizio 11 */
+
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: move-top;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes move-top {
+  0% {
+    left: 10%;
+  }
+
+  50% {
+    left: 70%;
+  }
+
+  100% {
+    left: 10%;
+  }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: move-bottom;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes move-bottom {
+  0% {
+    right: 20%;
+  }
+
+  50% {
+    right: 70%;
+  }
+
+  100% {
+    right: 20%;
+  }
+}
+/* Esercizio 12 */
+
+/* Esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+  animation-name: top-rotation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes top-rotation {
+  0% {
+    left: 10%;
+    top: -10px;
+  }
+
+  20% {
+    left: 100%;
+    top: -10px;
+  }
+
+  40% {
+    left: 100%;
+    top: 100%;
+  }
+
+  60% {
+    left: -10px;
+    top: 100%;
+  }
+
+  80% {
+    left: -10px;
+    top: -10px;
+  }
+
+  100% {
+    left: 10%;
+    top: -10px;
+  }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: bottom-rotation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes bottom-rotation {
+  0% {
+    right: 20%;
+    bottom: -10px;
+  }
+
+  20% {
+    right: 80%;
+    bottom: -10px;
+  }
+
+  40% {
+    right: 80%;
+    bottom: 100%;
+  }
+
+  60% {
+    right: -10px;
+    bottom: 100%;
+  }
+
+  80% {
+    right: -10px;
+    bottom: -10px;
+  }
+
+  100% {
+    right: 20%;
+    bottom: -10px;
+  }
+}
+
+/* Esercizio 13 */
