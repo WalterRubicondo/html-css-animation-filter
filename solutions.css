@@ -14,7 +14,7 @@
 }
 
 .ex-2-square:active {
-  width: 1000px;
+  width: 100%;
 }
 /* Esercizio 2 */
 
@@ -89,3 +89,35 @@
   transform: scale(1.5);
 }
 /* Esercizio 9 */
+
+/* Esercizio 10 */
+.ex-10-icon {
+  animation-name: reverse-rotation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes reverse-rotation {
+  0% {
+    transform: rotate(360deg)
+    }
+}
+/* Esercizio 10 */
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg)
+    }
+  85% {
+    transform: rotate(300deg);
+    }
+}
+/* Esercizio 11 */
